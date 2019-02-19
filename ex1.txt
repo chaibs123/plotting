@@ -1,0 +1,14 @@
+x = student_attendance.keys()
+y = student_attendance.values()
+l = len(x)
+squares = [x for x in student_attendance ]
+input_keys = ()
+input_values = range(1, 35)
+print(x)
+print(y)
+plt.plot(input_keys, input_values, linewidth=5)
+
+plt.title("Ex.1 Student attendance", fontsize=14)
+plt.xlabel("Days", fontsize=10)
+plt.ylabel("Day no.", fontsize=10)
+plt.tick_params(axis='both', which='major', labelsize=10)
